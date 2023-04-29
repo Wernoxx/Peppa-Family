@@ -1,0 +1,108 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    user-select: none;
+}
+
+header {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    justify-content: center;
+    background-color: #007CC2;
+    padding: 10px;
+}
+
+body {
+    background-color: #7FB6F6;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.soleil {
+    position: absolute;
+    right: 0;
+    margin: 30px;
+    width: 130px;
+    z-index: 0;
+}
+
+.cards {
+    position: relative;
+    display: grid;
+    grid-template-columns: 350px 2fr;
+    gap: 12px;
+    margin: 0px;
+    padding: 0px;
+    z-index: 3;
+}
+
+
+.card {
+    position: relative;
+    display: flex;
+    height: 350px;
+    width: 300px;
+    border-radius: 16px;
+    margin: 10px;
+    background: linear-gradient(180deg, #007CC2 0%, #DB87B9 100%);
+}
+
+.card-layer {
+    display: flex;
+    margin: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.card-layer2 {
+    margin: 8px;
+    border: 8px #7FB6F6 solid;
+    border-radius: 10px;
+}
+
+.card-name {
+    display: flex;
+    margin: 10px;
+}
+
+.card-name button {
+    position: relative;
+    align-items: center;
+    top: 3px;
+    left: 4px;
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+    border-radius: 33px;
+    border: none;
+    background-color: #007CC2;
+}
+
+.card-description {
+    position: relative;
+    display: flex;
+    width: 60%;
+    margin: 10px;
+}
+
+.card .personnage {
+    position: relative;
+    display: block;
+    left: 60%;
+    bottom: 80%;
+}
+
+footer img {
+    position: absolute;
+    display: flex;
+    bottom: 0px;
+    width: 100%;
+    z-index: 0;
+}
