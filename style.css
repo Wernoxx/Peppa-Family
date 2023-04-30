@@ -21,8 +21,6 @@ header {
 
 body {
     background-color: #7FB6F6;
-    overflow-y: hidden;
-    overflow-x: hidden;
 }
 
 .soleil {
@@ -74,15 +72,14 @@ body {
 
 .card-name button {
     position: relative;
+    display: flex;
     align-items: center;
-    top: 3px;
-    left: 4px;
-    width: 30px;
-    height: 30px;
-    padding: 6px;
-    border-radius: 33px;
+    justify-content: center;
+    left: 6px;
+    border-radius: 40px;
+    height: 35px;
+    width: 35px;
     border: none;
-    background-color: #007CC2;
 }
 
 .card-description {
@@ -92,16 +89,14 @@ body {
     margin: 10px;
 }
 
-.card .personnage {
-    position: relative;
-    display: block;
-    left: 60%;
-    bottom: 80%;
+.personnage {
+    position: absolute;
+    top: 70px;
+    right: -57px;
 }
 
 footer img {
     position: absolute;
-    display: flex;
     bottom: 0px;
     width: 100%;
     z-index: 0;
