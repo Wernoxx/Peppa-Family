@@ -34,10 +34,11 @@ body {
 .cards {
     position: relative;
     display: grid;
-    grid-template-columns: 350px 2fr;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 350px 350px;
+    margin-top: 40px;
     gap: 12px;
-    margin: 0px;
-    padding: 0px;
     z-index: 3;
 }
 
@@ -70,16 +71,16 @@ body {
     margin: 10px;
 }
 
-.card-name button {
+.card-name img {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     left: 6px;
     border-radius: 40px;
-    height: 35px;
-    width: 35px;
     border: none;
+    background: none;
+    cursor: pointer;
 }
 
 .card-description {
