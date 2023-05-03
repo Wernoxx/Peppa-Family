@@ -1,6 +1,6 @@
 # Peppa-Family
 
-### WIP
+## WIP
 
 > Site indiquant la biographie des 4 personnages principaux du dessin animé Peppa Pig.
 
