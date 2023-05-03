@@ -78,9 +78,15 @@ body {
     justify-content: center;
     left: 6px;
     border-radius: 40px;
+<<<<<<< HEAD
     border: none;
     background: none;
     cursor: pointer;
+=======
+    height: 35px;
+    width: 35px;
+    border: none;
+>>>>>>> Peppa-Family
 }
 
 .card-description {
