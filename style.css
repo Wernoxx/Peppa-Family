@@ -4,9 +4,6 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-}
-
-img {
     user-select: none;
 }
 
@@ -21,6 +18,7 @@ header {
 
 body {
     background-color: #7FB6F6;
+    overflow-x: hidden;
 }
 
 .soleil {
@@ -50,7 +48,22 @@ body {
     width: 300px;
     border-radius: 16px;
     margin: 10px;
+}
+
+.card.george {
     background: linear-gradient(180deg, #007CC2 0%, #DB87B9 100%);
+}
+
+.card.peppa {
+    background: linear-gradient(180deg, #F1635D 0%, #DB87B9 100%);
+}
+
+.card.maman {
+    background: linear-gradient(180deg, #F3AF89 0%, #DB87B9 100%);
+}
+
+.card.papa {
+    background: linear-gradient(180deg, #77C7C1 0%, #DB87B9 100%);
 }
 
 .card-layer {
@@ -62,7 +75,7 @@ body {
 
 .card-layer2 {
     margin: 8px;
-    border: 8px #7FB6F6 solid;
+    border: 10px #7FB6F6 solid;
     border-radius: 10px;
 }
 
@@ -78,15 +91,39 @@ body {
     justify-content: center;
     left: 6px;
     border-radius: 40px;
-<<<<<<< HEAD
-    border: none;
     background: none;
     cursor: pointer;
-=======
-    height: 35px;
-    width: 35px;
-    border: none;
->>>>>>> Peppa-Family
+    transition: scale 0.2s ease-in-out;
+}
+
+.card-name img:hover {
+    scale: 1.1;
+}
+
+.card-name img:active {
+    scale: 1.2;
+}
+
+.card-name h1 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Jua, sans-serif;
+}
+
+.card.george .card-name h1 {
+    color: #236DA1;
+}
+
+.card.peppa .card-name h1 {
+    color: #EBA1C6;
+}
+
+.card.maman .card-name h1 {
+    color: #F3AF89;
+}
+
+.card.papa .card-name h1 {
+    color: #77C7C1;
 }
 
 .card-description {
@@ -96,10 +133,15 @@ body {
     margin: 10px;
 }
 
+.card-description p {
+    font-size: 14px;
+    font-family: Jost, sans-serif;
+}
+
 .personnage {
     position: absolute;
     top: 70px;
-    right: -57px;
+    right: -60px;
 }
 
 footer img {
