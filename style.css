@@ -145,10 +145,10 @@ body {
 }
 
 .herbe {
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     width: 100%;
-    z-index: 0;
+    z-index: -1;
 }
 
 @media (max-width: 780px) {
