@@ -152,11 +152,34 @@ body {
 }
 
 @media (max-width: 780px) {
+    header img {
+        width: 100vw;
+    }
+
     .cards {
         display: flex;
         flex-direction: column;
+        width: 350px;
+        margin: 10px auto;
     }
+
+    .card {
+        width: 270px;
+        height: 315px;
+    }
+
     .herbe {
         display: none;
+    }
+
+    .card p {
+        font-size: 12px;
+    }
+
+    .personnage {
+        width: 173px;
+    }
+    .card.maman .personnage{
+        width: 190px;
     }
 }
