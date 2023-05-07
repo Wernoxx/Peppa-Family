@@ -144,9 +144,19 @@ body {
     right: -60px;
 }
 
-footer img {
+.herbe {
     position: absolute;
     bottom: 0px;
     width: 100%;
     z-index: 0;
+}
+
+@media (max-width: 780px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+    .herbe {
+        display: none;
+    }
 }
