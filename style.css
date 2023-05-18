@@ -151,6 +151,10 @@ body {
     z-index: -1;
 }
 
+audio {
+    display: none;
+}
+
 @media (max-width: 780px) {
     header img {
         width: 100vw;
@@ -179,7 +183,8 @@ body {
     .personnage {
         width: 173px;
     }
-    .card.maman .personnage{
+
+    .card.maman .personnage {
         width: 190px;
     }
 }
