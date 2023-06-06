@@ -144,6 +144,11 @@ body {
     right: -60px;
 }
 
+.card.george .personnage {
+    top: 90px;
+    right: -40px;
+}
+
 .herbe {
     position: fixed;
     bottom: 0px;
