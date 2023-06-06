@@ -192,4 +192,7 @@ audio {
     .card.maman .personnage {
         width: 190px;
     }
+    .card.george .personnage {
+        width: 150px;
+    }
 }
