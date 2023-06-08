@@ -16,9 +16,27 @@ header {
     padding: 10px;
 }
 
+header .github {
+    position: fixed;
+    width: 50px;
+    left: 0px;
+    bottom: 0px;
+    padding: 10px;
+    z-index: 4;
+    fill: #ffffff;
+    cursor: pointer;
+    transition: all 0.2s
+}
+
+header .github:hover {
+    scale: 1.2;
+    filter: drop-shadow(0px 0px 2px #000000);
+}
+
 body {
     background-color: #7FB6F6;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .soleil {
@@ -165,6 +183,10 @@ audio {
         width: 100vw;
     }
 
+    body {
+        overflow: auto;
+    }
+
     .cards {
         display: flex;
         flex-direction: column;
@@ -192,6 +214,7 @@ audio {
     .card.maman .personnage {
         width: 190px;
     }
+
     .card.george .personnage {
         width: 150px;
     }
